@@ -1,0 +1,327 @@
+{
+  "keys": "/Users/lizhiyuan/code/react-ssr/config/config.default.js",
+  "static": {
+    "prefix": "/Users/lizhiyuan/code/react-ssr/config/config.default.js",
+    "dir": "/Users/lizhiyuan/code/react-ssr/config/config.default.js",
+    "dynamic": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-static/config/config.default.js"
+  },
+  "proxy": {
+    "host": "/Users/lizhiyuan/code/react-ssr/config/config.local.js",
+    "match": "/Users/lizhiyuan/code/react-ssr/config/config.local.js"
+  },
+  "session": {
+    "maxAge": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lizhiyuan/code/react-ssr/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "name": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "version": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "bootstrap": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "classnames": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "egg": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "headroom.js": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "moment": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "nouislider": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-datetime": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-scripts": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "reactstrap": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "serialize-javascript": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "ykfe-utils": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "debug": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "start": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "ssr": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "csr": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "prod": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "build:server": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "build:client": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "build": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "analyze": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "devDependencies": {
+      "@babel/core": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-proposal-class-properties": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-proposal-function-bind": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-transform-react-jsx": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-transform-react-jsx-self": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/polyfill": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-react": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "browserslist": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "concurrently": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "css-hot-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "css-modules-require-hook": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "egg-proxy": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "less": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "optimize-css-assets-webpack-plugin": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "postcss-flexbugs-fixes": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "postcss-preset-env": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "postcss-safe-parser": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "react-dev-utils": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "sass": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "terser-webpack-plugin": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-manifest-plugin": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "webpack-node-externals": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "yk-cli": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "env": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "level": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "port": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lizhiyuan/code/react-ssr/node_modules/egg/config/config.default.js"
+}
