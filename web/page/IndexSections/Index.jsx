@@ -1,33 +1,33 @@
-import React from "react";
+import React from 'react'
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import { Container, Row } from 'reactstrap'
 
 // core components
-import DemoNavbar from "../components/Navbars/DemoNavbar.js";
-import CardsFooter from "../components/Footers/CardsFooter.js";
+import DemoNavbar from '../components/Navbars/DemoNavbar.jsx'
+import CardsFooter from '../components/Footers/CardsFooter.jsx'
 
 // index page sections
-import Hero from "./Hero.js";
-import Buttons from "./Buttons.js";
-import Inputs from "./Inputs.js";
-import CustomControls from "./CustomControls.js";
-import Menus from "./Menus.js";
-import Navbars from "./Navbars.js";
-import Tabs from "./Tabs.js";
-import Progress from "./Progress.js";
-import Pagination from "./Pagination.js";
-import Pills from "./Pills.js";
-import Labels from "./Labels.js";
-import Alerts from "./Alerts.js";
-import Typography from "./Typography.js";
-import Modals from "./Modals.js";
-import Datepicker from "./Datepicker.js";
-import TooltipPopover from "./TooltipPopover.js";
-import Carousel from "./Carousel.js";
-import Icons from "./Icons.js";
-import Login from "./Login.js";
-import Download from "./Download.js";
+import Hero from './Hero.jsx'
+import Buttons from './Buttons.jsx'
+import Inputs from './Inputs.jsx'
+import CustomControls from './CustomControls.jsx'
+import Menus from './Menus.jsx'
+import Navbars from './Navbars.jsx'
+import Tabs from './Tabs.jsx'
+import Progress from './Progress.jsx'
+import Pagination from './Pagination.jsx'
+import Pills from './Pills.jsx'
+import Labels from './Labels.jsx'
+import Alerts from './Alerts.jsx'
+import Typography from './Typography.jsx'
+import Modals from './Modals.jsx'
+import Datepicker from './Datepicker.jsx'
+import TooltipPopover from './TooltipPopover.jsx'
+import Carousel from './Carousel.jsx'
+import Icons from './Icons.jsx'
+import Login from './Login.jsx'
+import Download from './Download.jsx'
 
 class Index extends React.Component {
   // componentDidMount() {
@@ -39,43 +39,43 @@ class Index extends React.Component {
     return (
       <>
         <DemoNavbar />
-        <main ref="main">
+        <main ref='main'>
           <Hero />
           <Buttons />
           <Inputs />
-          <section className="section">
+          <section className='section'>
             <Container>
               <CustomControls />
               <Menus />
-            </Container>{" "}
-          </section>{" "}
+            </Container>{' '}
+          </section>{' '}
           <Navbars />
-          <section className="section section-components">
+          <section className='section section-components'>
             <Container>
               <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
+              <Row className='row-grid justify-content-between align-items-center mt-lg'>
                 <Progress />
                 <Pagination />
-              </Row>{" "}
-              <Row className="row-grid justify-content-between">
+              </Row>{' '}
+              <Row className='row-grid justify-content-between'>
                 <Pills />
                 <Labels />
-              </Row>{" "}
+              </Row>{' '}
               <Alerts />
               <Typography />
               <Modals />
               <Datepicker />
               <TooltipPopover />
-            </Container>{" "}
-          </section>{" "}
+            </Container>{' '}
+          </section>{' '}
           <Carousel />
           <Icons />
           <Login />
           <Download />
-        </main>{" "}
+        </main>{' '}
         <CardsFooter />
       </>
-    );
+    )
   }
 }
-export default Index;
+export default Index

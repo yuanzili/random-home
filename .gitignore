@@ -8,6 +8,7 @@ node_modules
 
 # Log files
 /logs
+/run
 # Editor directories and files
 .idea
 .vscode
