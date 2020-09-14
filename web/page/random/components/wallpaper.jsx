@@ -1,24 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledCarousel } from 'reactstrap'
 
-const items = [
-  {
-    src: require('assets/img/theme/img-1-1200x1000.jpg'),
-    altText: '',
-    caption: '',
-    header: '',
-  },
-  {
-    src: require('assets/img/theme/img-2-1200x1000.jpg'),
-    altText: '',
-    caption: '',
-    header: '',
-  },
-]
+function Wallpaper(props) {
+  const [picUrl, setPicUrl] = useState('/api/getRandomData?type=avatar')
+  const changePic = (type) => {
+    const randomDate = new Date().getTime()
+    const apiUrl = `/api/getRandomData?type=${type}&t=${randomDate}`
+    setPicUrl(apiUrl)
+    console.log(picUrl)
+  }
 
-export default function Wallpaper() {
   return (
     <>
       <section className='section section-shaped'>
@@ -37,18 +30,18 @@ export default function Wallpaper() {
               <Button
                 className='btn-white btn-icon mb-3 mg-bt'
                 color='default'
-                href='https://zh-hans.reactjs.org/'
+                onClick={() => changePic('sellerShow')}
                 size='lg'
               >
                 <span className='btn-inner--icon mr-1'>
                   <i className='ni ni-album-2' />
                 </span>
-                <span className='btn-inner--text'>随机一张壁纸</span>
+                <span className='btn-inner--text'>随机一张卖家秀</span>
               </Button>
               <Button
                 className='btn-white btn-icon mb-3  mg-bt'
                 color='default'
-                href='https://zh-hans.reactjs.org/'
+                onClick={() => changePic('buyerShow')}
                 size='lg'
               >
                 <span className='btn-inner--icon mr-1'>
@@ -59,19 +52,20 @@ export default function Wallpaper() {
               <Button
                 className='btn-white btn-icon mb-3 mg-bt'
                 color='default'
-                href='https://zh-hans.reactjs.org/'
+                onClick={() => changePic('avatar')}
                 size='lg'
               >
                 <span className='btn-inner--icon mr-1'>
-                  <i className='fa fa-cloud-download' />
+                  <i className='ni ni-album-2' />
                 </span>
-                <span className='btn-inner--text'>下载图片</span>
+                <span className='btn-inner--text'>随机一张头像</span>
               </Button>
             </Col>
             <Col className='mb-lg-auto' lg='7'>
               <div className='rounded shadow-lg overflow-hidden transform-perspective-right'>
                 <img
-                  src={require('assets/img/theme/img-2-1200x1000.jpg')}
+                  // src={'/api/getRandomData?type=buyerShow'}
+                  src={picUrl}
                   style={{ height: '100%', width: '100%' }}
                 />
               </div>
@@ -95,3 +89,5 @@ export default function Wallpaper() {
     </>
   )
 }
+
+export default Wallpaper

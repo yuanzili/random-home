@@ -65,12 +65,12 @@ export default function Introduce() {
                     <img
                       alt='...'
                       className='ml-1'
-                      style={{ height: '28px', 'border-radius': '18px' }}
+                      style={{ height: '28px', 'borderRadius': '18px' }}
                       src={require('assets/img/brand/cat.png')}
                     />
                     <small
                       className='text-white font-weight-bold mb-0'
-                      style={{ 'margin-left': '8px' }}
+                      style={{ 'marginLeft': '8px' }}
                     >
                       lzy
                     </small>

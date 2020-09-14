@@ -19,12 +19,13 @@ class PageController extends Controller {
       ctx
     } = this;
     const {
-      params
-    } = ctx.request;
-    const result = await ctx.service.api.getRandomData(params);
-    ctx.type = 'text/json'
-    ctx.status = 200
-    ctx.body = result;
+      query
+    } = ctx;
+    const result = await ctx.service.api.getRandomData(query);
+    ctx.set("Content-Disposition", result.res.headers["content-disposition"]);
+    // ctx.set("Content-Type", result.res.headers["content-type"]);
+    ctx.body = result.data;
+    ctx.status = result.status;
   }
 }
 

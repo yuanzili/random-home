@@ -36,13 +36,24 @@ class ApiService extends Service {
    * @param {*} params 
    */
   async getRandomData(params) {
-    const result = {
-      img: '',
-      text: ""
-    };
-    if (params.type === 'picture') {
-      //const tem = ctx.curl
+    const {
+      ctx
+    } = this;
+    let resp;
+    if (params.type === 'buyerShow') {
+      resp = await ctx.curl('https://api.66mz8.com/api/rand.tbimg.php?format=jpg', {
+        dataType: "Buffer"
+      });
+    } else if (params.type === 'sellerShow') {
+      resp = await ctx.curl('https://api.66mz8.com/api/rand.tbimg.php?format=png', {
+        dataType: "Buffer"
+      });
+    } else if (params.type === 'avatar') {
+      resp = await ctx.curl('https://api.66mz8.com/api/rand.portrait.php?type=%E7%94%B7&format=jpg', {
+        dataType: "Buffer"
+      });
     }
+    return resp;
   }
 }
 
